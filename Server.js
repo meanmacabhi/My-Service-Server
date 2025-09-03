@@ -62,7 +62,7 @@ const corsOptions = {
     "https://boisterous-bombolone-472c3a.netlify.app" // Netlify deployment
   ],
   methods: "GET,POST,PUT,DELETE,PATCH,HEAD",
-  credentials: true,
+  
 };
 
 app.use(cors(corsOptions));
